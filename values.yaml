@@ -1,0 +1,15 @@
+host:
+  project: devsecops
+  domain: yukanyan.us.kg
+
+foo:
+  replicaCount: 1
+  image:
+    name: docker.io/yukanyan/devsecops-demo-app-foo
+    tag: v0.1.0
+
+bar:
+  replicaCount: 1
+  image:
+    name: docker.io/yukanyan/devsecops-demo-app-bar
+    tag: v0.1.0
